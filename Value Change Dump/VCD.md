@@ -2,6 +2,8 @@
 
 **Value Change Dump (VCD)** captures signal transitions for waveform visualization.
 
+## Creating a Simple VCD File ( simple_test.v) simple.vcd
+
 ## Example: Counter
 
 This example creates a **4-bit counter** with a clock and reset. It dumps signals of the `counter_vcd` module to `counter.vcd`.  
