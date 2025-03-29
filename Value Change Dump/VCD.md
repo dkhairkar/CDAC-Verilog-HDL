@@ -2,7 +2,7 @@
 
 **Value Change Dump (VCD)** captures signal transitions for waveform visualization.
 
-## Creating a Simple VCD File ( simple_test.v) simple.vcd
+-Creating a Simple VCD File ( simple_test.v) simple.vcd
 
 ## Example: Counter
 
