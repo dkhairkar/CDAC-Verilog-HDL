@@ -1,26 +1,14 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 09.04.2025 09:23:33
-// Design Name: 
-// Module Name: tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+module test_bench;
+reg [3:0]a,b;
+reg clk;
+wire [3:0] c,d;
 
-
-module tb(
-
-    );
+test dut(a,b,clk,c,d);
+initial begin
+  clk=0;
+  a=3;
+  b=2;
+  forever #10 clk=~clk;
+  end
+initial #100 $finish;
 endmodule
