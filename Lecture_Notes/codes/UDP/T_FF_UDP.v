@@ -14,6 +14,7 @@ table
  (10)     0    : 1 : 0 ;     // Toggle q on rising edge if q is 1 -> becomes 0
  (10)     0    : 0 : 1 ;     // Toggle q on rising edge if q is 0 -> becomes 1
  (0?)     0    : ? : - ;     // Ignore positive transitions
+  ?      (10)  : ? : - ;
 endtable
 
 endprimitive
