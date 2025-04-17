@@ -11,23 +11,23 @@ always @(in or cst)
 case (cst)
     S0: if (in == 0)
        begin
-            nxt = S0;
-            out = 0;
+            nxt <= S0;
+            out <= 0;
         end
         else
         begin
-            nxt = S1;
-            out = 0;
+            nxt <= S1;
+            out <= 0;
         end
     S1: if (in == 0)
     begin
-        nxt = S0;
-        out = 0;
+        nxt <= S0;
+        out <= 0;
     end
     else
     begin
-        nxt = S1;
-        out = 1;
+        nxt <= S1;
+        out <= 1;
     end
 endcase
 
