@@ -1,8 +1,4 @@
 
-# Assignments 
-
----
-
 ## 📘 Assignments List
 
 | #   | Assignment Title        |  
