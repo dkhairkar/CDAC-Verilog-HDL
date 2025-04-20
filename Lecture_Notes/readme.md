@@ -1,7 +1,7 @@
 # Lecture Notes : Verilog HDL April 2025
 
--1. Introduction. 
+-01. Introduction. 
 
--2. Importance of HDLs.
+-02. Importance of HDLs.
 
--3. Language Essentials
+-03. Language Essentials
