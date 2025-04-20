@@ -3,3 +3,5 @@
 -1. Introduction. 
 
 -2. Importance of HDLs.
+
+-3. Language Essentials
